@@ -14,7 +14,7 @@ Packages and versions are listed with the most recent version listed first.
 
 The following packages and versions are part of this release:
 
-### Service Fabric 11.5 Hotfix 1
+### Service Fabric 11.5.116
 
 | **Service** | **Platform** | **Version** |
 |---|---|---|
@@ -22,16 +22,17 @@ The following packages and versions are part of this release:
 | [Service Fabric for Windows Server](https://download.microsoft.com/download/8/3/6/836e3e99-a300-4714-8278-96bc3e8b5528/11.5.116.1/Microsoft.Azure.ServiceFabric.WindowsServer.11.5.116.1.zip) | Service Fabric Standalone Installer Package | 11.5.116.1 |
 | [.NET SDK](https://download.microsoft.com/download/b/8/a/b8a2fb98-0ec1-41e5-be98-9d8b5abf7856/MicrosoftServiceFabricSDK.8.5.116.msi) | Windows .NET SDK <br> Microsoft.ServiceFabric <br> Reliable Services and Reliable Actors <br> ASP.NET Core Service Fabric integration | 8.5.116 <br> 11.5.116.1 <br> 8.5.116 <br> 8.5.116 |
 
-### Service Fabric 11.5
+### Service Fabric 11.5.111
 
 | **Service** | **Platform** | **Version** |
 |---|---|---|
-| [Service Fabric Runtime](https://download.microsoft.com/download/b/8/a/b8a2fb98-0ec1-41e5-be98-9d8b5abf7856/MicrosoftServiceFabric.11.5.111.1.exe) | Windows <br> Windows ARM64 | 11.5.111.1 <br> 11.5.111.2 |
-| [Service Fabric for Windows Server](https://download.microsoft.com/download/8/3/6/836e3e99-a300-4714-8278-96bc3e8b5528/11.5.111.1/Microsoft.Azure.ServiceFabric.WindowsServer.11.5.111.1.zip) | Service Fabric Standalone Installer Package | 11.5.111.1 |
-| [.NET SDK](https://download.microsoft.com/download/b/8/a/b8a2fb98-0ec1-41e5-be98-9d8b5abf7856/MicrosoftServiceFabricSDK.8.5.111.msi) | Windows .NET SDK <br> Microsoft.ServiceFabric <br> Reliable Services and Reliable Actors <br> ASP.NET Core Service Fabric integration | 8.5.111 <br> 11.5.111.1 <br> 8.5.111 <br> 8.5.111 |
+| Service Fabric Runtime | Windows <br> Windows ARM64 | 11.5.111.1 <br> 11.5.111.2 |
+| Service Fabric for Windows Server | Service Fabric Standalone Installer Package | 11.5.111.1 |
+| .NET SDK | Windows .NET SDK <br> Microsoft.ServiceFabric <br> Reliable Services and Reliable Actors <br> ASP.NET Core Service Fabric integration | 8.5.111 <br> 11.5.111.1 <br> 8.5.111 <br> 8.5.111 |
 
 ## Key Announcements
 
+* Service Fabric version 11.5.111 is deprecated as of version 15.5.116.
 * Service Fabric 11.5 features .NET 10 support for Windows.
 * There is no Ubuntu 22.04 release for Service Fabric 11.5.
 * In Service Fabric 12, Microsoft.ServiceFabric.Data will no longer depend on Microsoft.ServiceFabric.Data.Extensions, and customers should prepare to remove Microsoft.ServiceFabric.Data.Extensions package references.
@@ -47,13 +48,13 @@ Features and bug fixes are listed by the version in which they were introduced, 
 
 The following features and bug fixes are part of this release:
 
-### Service Fabric 11.5 Hotfix 1 Features and Bug Fixes
+### Service Fabric 11.5.116 Features and Bug Fixes
 
 | **Versions** | **Issue Type** | **Description** | **Resolution** |
 |---|---|---|---|
-| Windows - <br> 11.5.116.1 <br> ARM64 - <br> 11.5.116.2 | Bug | .NET 10 Support | **Brief Description:** Hotfix 1 resolves a breaking compatibility change present in 11.5. <br> **Solution/Fix:** We recommend you move from 15.5.111 to 15.5.116. |
+| Windows - <br> 11.5.116.1 <br> ARM64 - <br> 11.5.116.2 | Bug | .NET 10 Support | **Brief Description:** 11.5.116 resolves an issue present in 15.5.111 that broke its compatibility with Service Fabric 11.4. <br> **Solution/Fix:** We recommend you move from 15.5.111 to 15.5.116. |
 
-### Service Fabric 11.5 Features and Bug Fixes
+### Service Fabric 11.5.111 Features and Bug Fixes
 
 | **Versions** | **Issue Type** | **Description** | **Resolution** |
 |---|---|---|---|
@@ -80,7 +81,7 @@ Follow this guidance for setting up your developer environment:
 * [Getting Started with Mac](https://docs.microsoft.com/azure/service-fabric/service-fabric-get-started-mac)
 * [Getting Started with Windows](https://docs.microsoft.com/azure/service-fabric/service-fabric-get-started)
 
-### Service Fabric 11.5 Hotfix 1 Repositories and Download Links
+### Service Fabric 11.5.116 Repositories and Download Links
 
 Runtime:
 https://download.microsoft.com/download/b/8/a/b8a2fb98-0ec1-41e5-be98-9d8b5abf7856/MicrosoftServiceFabric.11.5.116.1.exe
@@ -96,20 +97,3 @@ https://download.microsoft.com/download/8/3/6/836e3e99-a300-4714-8278-96bc3e8b55
  
 Goalstate:
 https://download.microsoft.com/download/7/d/1/7d1d1511-59a4-4933-8187-40c20065aa29/11.5.116.1/goalstate.11.5.116.1.json
-
-### Service Fabric 11.5 Hotfix Repositories and Download Links
-
-Runtime:
-https://download.microsoft.com/download/b/8/a/b8a2fb98-0ec1-41e5-be98-9d8b5abf7856/MicrosoftServiceFabric.11.5.111.1.exe
-
-SDK:
-https://download.microsoft.com/download/b/8/a/b8a2fb98-0ec1-41e5-be98-9d8b5abf7856/MicrosoftServiceFabricSDK.8.5.111.msi
-
-Cab:
-https://download.microsoft.com/download/b/0/b/b0bccac5-65aa-4be3-ab13-d5ff5890f4b5/11.5.111.1/MicrosoftServiceFabric.11.5.111.1.cab
-
-Package:
-https://download.microsoft.com/download/8/3/6/836e3e99-a300-4714-8278-96bc3e8b5528/11.5.111.1/Microsoft.Azure.ServiceFabric.WindowsServer.11.5.111.1.zip
-
-Goalstate:
-https://download.microsoft.com/download/7/d/1/7d1d1511-59a4-4933-8187-40c20065aa29/11.5.111.1/goalstate.11.5.111.1.json
