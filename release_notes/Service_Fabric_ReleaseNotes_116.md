@@ -4,7 +4,7 @@ This release will only be available through Auto upgrades. Clusters set to autom
 
 ## Contents
 * [Service Fabric Packages and Versions](#service-fabric-packages-and-versions)
-* [Service Fabric Feature and Bug Fixes](#service-fabric-feature-and-bug-fixes)
+* [Service Fabric Features and Bug Fixes](#service-fabric-features-and-bug-fixes)
 * [Retirement and Deprecation Path Callouts](#retirement-and-deprecation-path-callouts)
 * [Repositories and Download Links](#repositories-and-download-links)
 
