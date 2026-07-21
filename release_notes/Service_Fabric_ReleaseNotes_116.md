@@ -96,7 +96,7 @@ SDK:
 https://download.microsoft.com/download/b/8/a/b8a2fb98-0ec1-41e5-be98-9d8b5abf7856/MicrosoftServiceFabricSDK.8.6.235.msi
 
 Cab:
-https://download.microsoft.com/download/b/0/b/b0bccac5-65aa-4be3-ab13-d5ff5890f4b5/11.5.116.1/MicrosoftServiceFabric.11.6.235.1.cab
+https://download.microsoft.com/download/b/0/b/b0bccac5-65aa-4be3-ab13-d5ff5890f4b5/11.6.235.1/MicrosoftServiceFabric.11.6.235.1.cab
 
 Package:
 https://download.microsoft.com/download/8/3/6/836e3e99-a300-4714-8278-96bc3e8b5528/11.6.235.1/Microsoft.Azure.ServiceFabric.WindowsServer.11.6.235.1.zip
