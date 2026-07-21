@@ -49,7 +49,7 @@ The following packages and versions are part of this release:
 
 * In Service Fabric 11.5, Microsoft.ServiceFabric.ReliableCollection.Store.KeyValueTuple<T> is marked obsolete and in Service Fabric 12 it will no longer be available to customer applications. Customers should move to System.Tuple and remove Microsoft.ServiceFabric.Data.Extensions references.
 
-## Service Fabric Feature and Bug Fixes
+## Service Fabric Features and Bug Fixes
 
 Features and bug fixes are listed by the version in which they were introduced, with the most recent version listed first.
 
