@@ -57,9 +57,7 @@ The following features and bug fixes are part of this release:
 
 ### Service Fabric 11.5.122 Features and Bug Fixes
 
-| **Type** | **Overview** | **Description** |
-|---|---|---|
-| Bug Fix | Version incompatibility between 11.4 and 11.5.111 | **Brief Description:** Applications built with Service Fabric SDK 11.4 crash when Service Fabric runtime is upgraded to 11.5.111 due to breaking change in COM interfaces. <br> **Feature/Bug Impact:** Service Fabric upgrade to 11.5 cannot be completed with default upgrade policies. If upgrade bypasses default policies, applications built with Service Fabric SDK 11.4 will fail to run. <br> **Solution/Fix:** Service Fabric runtime 11.5.116.1 runs applications built with SDK 11.4 successfully. <br> **Workaround:** Rebuild applications with Service Fabric SDK 11.3. |
+11.5.122 delivers stability fixes.
 
 ### Service Fabric 11.5.116 Features and Bug Fixes
 
